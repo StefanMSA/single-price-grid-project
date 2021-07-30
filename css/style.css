@@ -50,6 +50,14 @@ body{
 #container-right h3 {
   margin-top: 0;
 }
+.button a {
+  font-size: 16px;
+  text-decoration: none;
+  color: white;
+}
+.button:hover {
+  background-color: hsl(71, 73%, 54%, 0.6);
+}
 @media (min-width:750px){
 .container-big {
   display: grid;
